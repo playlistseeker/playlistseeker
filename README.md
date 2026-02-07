@@ -1,14 +1,40 @@
 # PlaylistSeeker
-From YouTube and Discogs rabbit holes to clean local files. Built for real diggers.
 
+<p align="center">
+  <img src="https://github.com/playlistseeker/playlistseeker/blob/main/header.JPG?raw=true" alt="PlaylistSeeker header" width="720" />
+</p>
+
+<p align="center">
+  <img alt="macOS" src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" />
+  <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple%20Silicon-arm64-000000?logo=apple&logoColor=white" />
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-191970?logo=electron&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://buymeacoffee.com/playlistseeker">
+    <img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000" />
+  </a>
+</p>
 
 ## What This Is
 
-I spend way too much time on YouTube and Discogs finding music. That part's great. But then I've got 30+ tracks saved and I'm sitting there doing manual Soulseek searches one by one, fixing typos, waiting on retries, moving files around. For hours.
+I spend way too much time on YouTube and Discogs finding music. That part’s great. The part that sucks is turning a long playlist into actual files.
 
-PlaylistSeeker is a macOS app I built to skip that part. You give it a YouTube playlist, it handles the Soulseek searching and downloading. That's basically it.
+PlaylistSeeker is a macOS app I built to skip that part. Paste a YouTube playlist, it handles the Soulseek searching and downloading.
 
-I love Soulseek. The community is incredible and it's the only place you'll find half the stuff I look for. I just got tired of the manual workflow around it when I'm working through long playlists.
+I love Soulseek. The community is incredible and it’s the only place you’ll find half the stuff I look for. I just got tired of the manual loop.
+
+## Workflow
+
+```mermaid
+flowchart LR
+  A["YouTube playlist URL"] --> B["Track list"]
+  B --> C["Search queue"]
+  C --> D["Candidate matches"]
+  D --> E["Download"]
+  E --> F["Temp folder (incomplete)"]
+  F --> G["Final folder (complete)"]
+```
 
 ---
 
@@ -38,12 +64,18 @@ If a track hits, buy it. Bandcamp, Beatport, Juno, Discogs, wherever. Go to show
 - Metadata panel
 - In-app bug reporting
 
+## Preview
+
+![PlaylistSeeker app icon](iconplaylist.png)
+
 ---
 
 ## Download
 
 Latest release (Apple Silicon):
 
+- `PlaylistSeeker-1.0.0-arm64.dmg`
+- GitHub Release: `YOUR_GITHUB_RELEASE_LINK`
 
 ---
 
@@ -99,15 +131,19 @@ Side project. No timeline.
 
 ## Contributing
 
-Found a bug? Or got improvement suggestions? Use the button in the app. The app doesn't story any privacy info, hitting the button and typing will just send the feedback to a proton mail account :)
+Found a bug? Got an idea?
+
+Use the **Report** button in the app. It sends what you type to a Proton Mail inbox. No account needed.
+
 ---
 
 ## Support
 
-If this saved you time:
+If this saved you time, please buy me a coffee — it genuinely helps keep this project alive.
 
-- Buy Me a Coffee: `https://buymeacoffee.com/YOUR_HANDLE`
-- Ko-fi: `https://ko-fi.com/YOUR_HANDLE`
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/playlistseeker)
+
+- Buy Me a Coffee: `https://buymeacoffee.com/playlistseeker`
 
 ---
 
