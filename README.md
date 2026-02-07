@@ -1,4 +1,6 @@
 # PlaylistSeeker
+From YouTube and Discogs rabbit holes to clean local files. Built for real diggers.
+
 
 ## What This Is
 
@@ -42,16 +44,6 @@ If a track hits, buy it. Bandcamp, Beatport, Juno, Discogs, wherever. Go to show
 
 Latest release (Apple Silicon):
 
-- `PlaylistSeeker-1.0.0-arm64.dmg`
-- GitHub Release: `YOUR_GITHUB_RELEASE_LINK`
-
-Checksum:
-- `SHASUMS256.txt`: `YOUR_SHASUMS_LINK`
-
-Verify:
-```bash
-shasum -a 256 PlaylistSeeker-1.0.0-arm64.dmg
-```
 
 ---
 
@@ -107,8 +99,7 @@ Side project. No timeline.
 
 ## Contributing
 
-Found a bug? Open an issue with what happened, what you expected, and how to reproduce it. Screenshots or logs help.
-
+Found a bug? Or got improvement suggestions? Use the button in the app. The app doesn't story any privacy info, hitting the button and typing will just send the feedback to a proton mail account :)
 ---
 
 ## Support
