@@ -24,6 +24,8 @@ PlaylistSeeker is a macOS app I built to skip that part. Paste a YouTube playlis
 
 I love Soulseek. The community is incredible and it’s the only place you’ll find half the stuff I look for. I just got tired of the manual loop.
 
+---
+
 ## Workflow
 
 ```mermaid
@@ -40,7 +42,7 @@ flowchart LR
 
 ## Why I Built It
 
-I buy records when I can. I go to shows. But I still need digital files for mixing and for listening when I'm not at home. Spotify doesn't carry most of what I dig for.
+I buy records when I can. I go to shows. But I still need digital files for mixing and for listening when I’m not at home. Spotify doesn’t carry most of what I dig for.
 
 So the routine was: find tracks, save them, then spend the rest of the night doing repetitive searches. Building this was faster than doing that again for another 40-track playlist.
 
@@ -48,7 +50,7 @@ So the routine was: find tracks, save them, then spend the rest of the night doi
 
 ## Support Artists
 
-This helps you organise your library. It's not a reason to stop buying music.
+This helps you organise your library. It’s not a reason to stop buying music.
 
 If a track hits, buy it. Bandcamp, Beatport, Juno, Discogs, wherever. Go to shows. Grab the vinyl when you can. Underground music only keeps going if people actually support it.
 
@@ -64,6 +66,8 @@ If a track hits, buy it. Bandcamp, Beatport, Juno, Discogs, wherever. Go to show
 - Metadata panel
 - In-app bug reporting
 
+---
+
 ## Preview
 
 ![PlaylistSeeker app icon](iconplaylist.png)
@@ -74,16 +78,26 @@ If a track hits, buy it. Bandcamp, Beatport, Juno, Discogs, wherever. Go to show
 
 Latest release (Apple Silicon):
 
-- `PlaylistSeeker-1.0.0-arm64.dmg`
-- GitHub Release: `YOUR_GITHUB_RELEASE_LINK`
+- ZIP (recommended for GitHub sharing / quick download): `PlaylistSeeker-1.0.0-github-share.zip`
+  - https://github.com/playlistseeker/playlistseeker/releases/download/playlistseeker/PlaylistSeeker-1.0.0-github-share.zip
+- DMG: `PlaylistSeeker-1.0.0-arm64.dmg`
+- GitHub Release page: `YOUR_GITHUB_RELEASE_LINK`
 
 ---
 
 ## Install (macOS)
 
+### If you downloaded the ZIP
+
+1. Unzip `PlaylistSeeker-1.0.0-github-share.zip`
+2. Drag `PlaylistSeeker.app` to Applications
+3. First launch: right-click → Open (unsigned, I’m not paying Apple $99/year for this)
+
+### If you downloaded the DMG
+
 1. Download the DMG
 2. Drag `PlaylistSeeker.app` to Applications
-3. First launch: right-click → Open (unsigned, I'm not paying Apple $99/year for this)
+3. First launch: right-click → Open (unsigned, I’m not paying Apple $99/year for this)
 
 ---
 
@@ -105,8 +119,8 @@ Latest release (Apple Silicon):
 ## Good to Know
 
 - Unsigned build. macOS will complain. Normal.
-- YouTube embeds can be blocked in desktop apps, fallback preview is there
-- Incomplete downloads stay in a temp folder until they're done
+- YouTube embeds can be blocked in desktop apps; the fallback preview is there
+- Incomplete downloads stay in a temp folder until they’re done
 - Something broken? Hit the Report button
 
 ---
@@ -141,9 +155,11 @@ Use the **Report** button in the app. It sends what you type to a Proton Mail in
 
 If this saved you time, please buy me a coffee — it genuinely helps keep this project alive.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/playlistseeker)
+<a href="https://buymeacoffee.com/playlistseeker">
+  <img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000" />
+</a>
 
-- Buy Me a Coffee: `https://buymeacoffee.com/playlistseeker`
+- Buy Me a Coffee: https://buymeacoffee.com/playlistseeker
 
 ---
 
