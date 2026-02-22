@@ -15,6 +15,15 @@ PlaylistSeeker is a macOS app for music lovers who dig on YouTube and download t
 
 Paste a playlist, let it search, and build your local collection faster.
 
+<p align="center">
+  <a href="https://buymeacoffee.com/playlistseeker">
+    <img alt="Support PlaylistSeeker on Buy Me a Coffee" src="https://img.shields.io/badge/Support%20PlaylistSeeker-Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000&style=for-the-badge" />
+  </a>
+</p>
+<p align="center">
+  <strong>If PlaylistSeeker saves you time, this helps keep updates and releases going.</strong>
+</p>
+
 ## Download (just click this)
 
 - [PlaylistSeeker-1.1.0-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.dmg)
@@ -56,7 +65,7 @@ Paste a playlist, let it search, and build your local collection faster.
 ## Support
 
 - Issues: [GitHub Issues](https://github.com/playlistseeker/playlistseeker/issues)
-- Optional support: [Buy Me a Coffee](https://buymeacoffee.com/playlistseeker)
+- Support development: [Buy Me a Coffee](https://buymeacoffee.com/playlistseeker)
 
 ## Source Availability
 
