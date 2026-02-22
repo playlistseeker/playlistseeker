@@ -31,13 +31,6 @@ This repository is not a full open-source project at this time.
 - **For most users, just click this:** [PlaylistSeeker-1.1.0-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.dmg)
 - Drag `PlaylistSeeker.app` to `Applications`.
 
-<details>
-<summary>Advanced assets (optional)</summary>
-
-- App ZIP: [PlaylistSeeker-1.1.0-arm64.zip](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.zip)
-
-</details>
-
 ## Install (macOS)
 
 ### DMG flow (recommended)
@@ -63,7 +56,6 @@ Then verify locally:
 
 ```bash
 shasum -a 256 PlaylistSeeker-1.1.0-arm64.dmg
-shasum -a 256 PlaylistSeeker-1.1.0-arm64.zip
 ```
 
 ## Report issues
