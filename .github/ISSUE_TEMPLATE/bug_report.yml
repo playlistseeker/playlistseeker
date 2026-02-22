@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a problem in a released PlaylistSeeker build
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: Example: v1.1.0
+      placeholder: v1.1.0
+    validations:
+      required: true
+  - type: input
+    id: macos_version
+    attributes:
+      label: macOS version
+      placeholder: macOS 14.7.4
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Clear summary of the issue
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide exact steps
+      placeholder: |
+        1. Open app
+        2. Add playlist...
+        3. Click Start Queue...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Optional but very helpful
+      render: shell

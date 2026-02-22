@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/playlistseeker/playlistseeker/security/advisories/new
+    about: Use private security reporting when available.
+  - name: In-app report
+    url: https://github.com/playlistseeker/playlistseeker#report-issues
+    about: You can also submit a report from inside the app.
