@@ -9,73 +9,58 @@
     <img alt="Latest Release" src="https://img.shields.io/github/v/release/playlistseeker/playlistseeker?display_name=tag&sort=semver" />
   </a>
   <img alt="Platform" src="https://img.shields.io/badge/macOS-Apple%20Silicon-black?logo=apple&logoColor=white" />
-  <img alt="App" src="https://img.shields.io/badge/App-Electron-191970?logo=electron&logoColor=white" />
 </p>
 
-Release channel for PlaylistSeeker desktop builds.
+PlaylistSeeker is a macOS app for music lovers who dig on YouTube and download through Soulseek.
 
-This repository is intended for binary releases, release notes, and support tracking.
+Paste a playlist, let it search, and build your local collection faster.
 
-## Source availability
+## Download (just click this)
 
-PlaylistSeeker is currently distributed as prebuilt binaries.
-This repository is not a full open-source project at this time.
+- [PlaylistSeeker-1.1.0-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.dmg)
 
-## Latest release
+## Install (2 minutes)
 
-- Current stable: **v1.1.0**
-- Release page: [github.com/playlistseeker/playlistseeker/releases/latest](https://github.com/playlistseeker/playlistseeker/releases/latest)
+1. Download the DMG.
+2. Open it.
+3. Drag `PlaylistSeeker.app` into `Applications`.
+4. First launch on unsigned builds: right-click app, then `Open`.
 
-## Download
+## What's New In v1.1
 
-- **For most users, just click this:** [PlaylistSeeker-1.1.0-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.dmg)
-- Drag `PlaylistSeeker.app` to `Applications`.
+- Queue control is now per playlist. Start/pause one playlist without affecting others.
+- Sidebar playlist controls are easier to use.
+- Search-term editing no longer gets interrupted by queue refreshes.
+- Deleted tracks stay deleted after playlist refresh.
+- Unavailable YouTube items like `[Deleted video]` or `n/a` are skipped.
+- New yellow state: `Downloaded before, file missing` with manual `Re-download`.
+- Optional largest-file mode now avoids very long outlier matches.
+- Browser view is cleaner: resizable columns and hideable inspector.
+- Login/create flow now fails fast with clear timeout/network messages.
 
-## Install (macOS)
+## Quick Use
 
-### DMG flow (recommended)
+1. Connect your Soulseek account.
+2. Add a YouTube playlist URL.
+3. Select a playlist in the left panel.
+4. Press Start Queue for that playlist.
+5. Use `Report` in-app if something looks wrong.
 
-1. Download `PlaylistSeeker-1.1.0-arm64.dmg`.
-2. Open the DMG.
-3. Drag `PlaylistSeeker.app` to `Applications`.
-4. First run on unsigned builds: right-click app -> `Open`.
+## Upgrades
 
-## Upgrade policy
-
-- Upgrades are safe-replace installs of `/Applications/PlaylistSeeker.app`.
-- User data is preserved under `~/Library/Application Support/...`.
-- Credentials remain in macOS Keychain.
-
-## Verify download integrity
-
-Checksums file (release asset):
-
-- [PlaylistSeeker-1.1.0-arm64-SHA256SUMS.txt](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64-SHA256SUMS.txt)
-
-Then verify locally:
-
-```bash
-shasum -a 256 PlaylistSeeker-1.1.0-arm64.dmg
-```
-
-## Report issues
-
-- Use GitHub Issues for bugs/feature requests.
-- Use the in-app `Report` action if easier.
-- Include app version, macOS version, and repro steps.
+- Replacing `/Applications/PlaylistSeeker.app` keeps your local data and settings.
+- Credentials stay in macOS Keychain.
 
 ## Privacy
 
-- Soulseek credentials are stored locally (Keychain).
-- Playlist and track data remain local unless you explicitly submit a report.
+- Credentials are stored locally (Keychain).
+- Playlist and track data stay local unless you send a report.
 
 ## Support
 
-If PlaylistSeeker saves you time, you can support development:
+- Issues: [GitHub Issues](https://github.com/playlistseeker/playlistseeker/issues)
+- Optional support: [Buy Me a Coffee](https://buymeacoffee.com/playlistseeker)
 
-- [Buy Me a Coffee](https://buymeacoffee.com/playlistseeker)
+## Source Availability
 
-## Legal
-
-- Binaries are provided as-is for personal use.
-- No warranty is provided.
+This repository is currently a release/support channel, not a full open-source codebase.
