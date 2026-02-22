@@ -28,15 +28,12 @@ Paste a playlist, let it search, and build your local collection faster.
 
 ## What's New In v1.1
 
-- Queue control is now per playlist. Start/pause one playlist without affecting others.
-- Sidebar playlist controls are easier to use.
-- Search-term editing no longer gets interrupted by queue refreshes.
-- Deleted tracks stay deleted after playlist refresh.
-- Unavailable YouTube items like `[Deleted video]` or `n/a` are skipped.
-- New yellow state: `Downloaded before, file missing` with manual `Re-download`.
-- Optional largest-file mode now avoids very long outlier matches.
-- Browser view is cleaner: resizable columns and hideable inspector.
-- Login/create flow now fails fast with clear timeout/network messages.
+- You can now start/stop each playlist independently.
+- New missing-file handling: the app remembers it was downloaded before, marks it as missing, and offers one-click re-download.
+- Search Monitor is clearer with quick selection preferences: bitrate, file size, speed, and queue status.
+- Column resizing and overall layout behavior improved.
+- Missing videos in playlists that return `[Deleted video]` are handled correctly.
+- Login/create flow hardened: bounded timeouts, clearer error codes, no infinite loading state.
 
 ## Quick Use
 
