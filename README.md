@@ -26,14 +26,21 @@ Paste a playlist, let it search, and build your local collection faster.
 
 ## Download (just click this)
 
-- [PlaylistSeeker-1.1.0-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.0/PlaylistSeeker-1.1.0-arm64.dmg)
+- [PlaylistSeeker-1.1.2-arm64.dmg](https://github.com/playlistseeker/playlistseeker/releases/download/v1.1.2/PlaylistSeeker-1.1.2-arm64.dmg)
 
 ## Install (2 minutes)
 
 1. Download the DMG.
 2. Open it.
 3. Drag `PlaylistSeeker.app` into `Applications`.
-4. First launch on unsigned builds: right-click app, then `Open`.
+4. First launch on development-signed, non-notarized builds: right-click the app, then `Open`.
+
+## What's New In v1.1.2
+
+- Update notifications now point you to the verified public release page without interrupting your queue or changing your installation automatically.
+- Downloads finalize safely, interrupted partial files are cleaned up, and discarded files go to Trash instead of being permanently deleted.
+- YouTube previews refresh expired streams once and fall back to a clear Open on YouTube action when desktop playback is unavailable.
+- Settings now explains unwritable download folders instead of silently keeping the old path.
 
 ## What's New In v1.1
 
@@ -54,7 +61,7 @@ Paste a playlist, let it search, and build your local collection faster.
 
 ## Upgrades
 
-- Replacing `/Applications/PlaylistSeeker.app` keeps your local data and settings.
+- Replacing `/Applications/PlaylistSeeker.app` uses a clean staged bundle and keeps your local data and settings.
 - Credentials stay in macOS Keychain.
 
 ## Privacy
